@@ -162,7 +162,7 @@
         
         <div class="content">
             <div class="update-date">
-                📅 Son Güncelleme: 9 Şubat 2026
+                📅 Son Güncelleme: 13 Şubat 2026
             </div>
             
             <p>
@@ -177,6 +177,8 @@
             <ul>
                 <li><strong>Konum Bilgisi:</strong> Namaz vakitlerini ve kıble yönünü hesaplamak için cihazınızın konum bilgisi kullanılır.</li>
                 <li><strong>Cihaz Bilgileri:</strong> Uygulama performansını optimize etmek için cihaz modeli, işletim sistemi sürümü gibi teknik bilgiler toplanabilir.</li>
+                <li><strong>Anonim Kullanım İstatistikleri:</strong> Özellik kullanımı, oturum süresi, ilk açılış gibi anonim veriler Firebase Analytics ile toplanır. Bu veriler kişisel kimlik bilgisi içermez.</li>
+                <li><strong>Çökme Raporları:</strong> Uygulama istikrarını artırmak için çökme anındaki teknik bilgiler Firebase Crashlytics ile toplanır.</li>
             </ul>
             
             <h3>1.2. Kullanıcı Tarafından Sağlanan Veriler</h3>
@@ -222,6 +224,7 @@
             <ul>
                 <li><strong>Expo (React Native):</strong> Uygulama geliştirme platformu</li>
                 <li><strong>Google Play Services:</strong> Konum servisleri (yalnızca Android)</li>
+                <li><strong>Firebase (Google):</strong> Uygulama iyileştirme amacıyla Firebase Analytics (anonim kullanım istatistikleri) ve Firebase Crashlytics (çökme raporları) kullanıyoruz. Toplanan veriler anonimdir; kişisel veri toplanmaz.</li>
             </ul>
             <p>
                 Bu hizmetlerin kendi gizlilik politikaları vardır ve verilerinizi kendi politikaları 
@@ -233,6 +236,12 @@
             <p>
                 Zikra360, <strong>hiçbir kişisel verinizi üçüncü taraflarla paylaşmaz, satmaz veya kiralamaz</strong>. 
                 Verileriniz yalnızca cihazınızda kalır.
+            </p>
+            
+            <p>
+                <strong>Anonim Veriler:</strong> Uygulama iyileştirme amacıyla Firebase Analytics ve Crashlytics üzerinden 
+                anonim kullanım istatistikleri (ilk açılış, özellik kullanımı, oturum süresi vb.) ve çökme raporları 
+                Google sunucularına gönderilir. Bu veriler kişisel kimlik bilgisi içermez ve sizinle eşleştirilemez.
             </p>
             
             <p>
